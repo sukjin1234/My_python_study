@@ -1,3 +1,5 @@
+#print함수와 input함수를 배움
+
 print(len(input())) #len() : () 안에 있는 값의 길이를 알려줌
 
 two_digit_number = input() #32를 입력
