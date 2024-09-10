@@ -1,8 +1,8 @@
 # Example = "kakaka"
 # Example = Ex.count("k")
 # print(Example) -> 3
-# ë³€ìˆ˜.count() ()ì•ˆì— ìžˆëŠ” ë¬¸ìžë‚˜ ìˆ«ìž ë³€ìˆ˜ ì•ˆì— ì–¼ë§ˆë‚˜ ìžˆëŠ”ì§€ ì•Œë ¤ì¤Œ
-# ë³€ìˆ˜.lower() ë³€ìˆ˜ì— ë“¤ì–´ìžˆëŠ” ë¬¸ìžì—´ì„ ëª¨ë‘ ì†Œë¬¸ìžë¡œ ë°”ê¿ˆ 
+# º¯¼ö.count() ()¾È¿¡ ÀÖ´Â ¹®ÀÚ³ª ¼ýÀÚ º¯¼ö ¾È¿¡ ¾ó¸¶³ª ÀÖ´ÂÁö ¾Ë·ÁÁÜ
+# º¯¼ö.lower() º¯¼ö¿¡ µé¾îÀÖ´Â ¹®ÀÚ¿­À» ¸ðµÎ ¼Ò¹®ÀÚ·Î ¹Ù²Þ 
 
 
 print('''
@@ -25,29 +25,29 @@ print('''  |`-._/\_.-`|
      '.||.'
        ``''')
 
-print("ì¢€ë¹„ë“¤ì´ ë‹¤ê°€ì˜¤ê³  ìžˆìŠµë‹ˆë‹¤.\në‹¹ì‹  ì•žì—ëŠ” ì„¸ ê°œì˜ ë¬´ê¸°ê°€ ìžˆìŠµë‹ˆë‹¤.")
-first_answer = input("ì´, ì¹¼, ë°©íŒ¨ ì¤‘ì— í•˜ë‚˜ë¥¼ ê³ ë¥´ì„¸ìš”. :")
-if first_answer == "ì´":
-    print("\nì´ìœ¼ë¡œ ì¢€ë¹„ë“¤ì„ ì£½ì´ê³  ê°„ì‹ ížˆ ë„ë§ì³¤ìŠµë‹ˆë‹¤.")
-    print("ì•žì— ì‚¬ëžŒì´ ë³´ì¸ë‹¤.")
-    second_answer = input("ì´ìœ¼ë¡œ ìœë‹¤ y or n :")
+print("Á»ºñµéÀÌ ´Ù°¡¿À°í ÀÖ½À´Ï´Ù.\n´ç½Å ¾Õ¿¡´Â ¼¼ °³ÀÇ ¹«±â°¡ ÀÖ½À´Ï´Ù.")
+first_answer = input("ÃÑ, Ä®, ¹æÆÐ Áß¿¡ ÇÏ³ª¸¦ °í¸£¼¼¿ä. :")
+if first_answer == "ÃÑ":
+    print("\nÃÑÀ¸·Î Á»ºñµéÀ» Á×ÀÌ°í °£½ÅÈ÷ µµ¸ÁÃÆ½À´Ï´Ù.")
+    print("¾Õ¿¡ »ç¶÷ÀÌ º¸ÀÎ´Ù.")
+    second_answer = input("ÃÑÀ¸·Î ½ð´Ù y or n :")
     if second_answer == "y":
-        print("\në‹¤í–‰ì´ë„ ê·¸ ì‚¬ëžŒì€ ì¢€ë¹„ì˜€ìŠµë‹ˆë‹¤.")
-        print("ì•žì— ì°¨ê°€ ë‘ ëŒ€ ë³´ì¸ë‹¤.")
-        print("ì™¼ìª½ ì°¨ë¥¼ íƒˆì§€ ì˜¤ë¥¸ìª½ ì°¨ë¥¼ íƒˆì§€ ê³ ë¥´ì„¸ìš”")
+        print("\n´ÙÇàÀÌµµ ±× »ç¶÷Àº Á»ºñ¿´½À´Ï´Ù.")
+        print("¾Õ¿¡ Â÷°¡ µÎ ´ë º¸ÀÎ´Ù.")
+        print("¿ÞÂÊ Â÷¸¦ Å»Áö ¿À¸¥ÂÊ Â÷¸¦ Å»Áö °í¸£¼¼¿ä")
         third_answer = input("left or right : ")
         if third_answer == "left":
-            print("\nê³ ë¥´ì‹  ì°¨ëŠ” ê³ ìž¥ë‚œ ì°¨ì˜€ìŠµë‹ˆë‹¤.")
-            print("ì¢€ë¹„ë“¤ì—ê²Œ ë‘˜ëŸ¬ìŒ“ì—¬ ì£½ì—ˆìŠµë‹ˆë‹¤.")
+            print("\n°í¸£½Å Â÷´Â °íÀå³­ Â÷¿´½À´Ï´Ù.")
+            print("Á»ºñµé¿¡°Ô µÑ·¯½×¿© Á×¾ú½À´Ï´Ù.")
             print("game over")
         else:
-            print("\nê³ ë¥´ì‹  ì°¨ëŠ” ì •ìƒì¸ ìžë™ì°¨ì˜€ìŠµë‹ˆë‹¤.")
-            print("ì°¨ë¥¼ íƒ€ê³  ì¢€ë¹„ê°€ ì „ì—¼ëœ ë„ì‹œë¥¼ íƒˆì¶œí•˜ì˜€ìŠµë‹ˆë‹¤.")
+            print("\n°í¸£½Å Â÷´Â Á¤»óÀÎ ÀÚµ¿Â÷¿´½À´Ï´Ù.")
+            print("Â÷¸¦ Å¸°í Á»ºñ°¡ Àü¿°µÈ µµ½Ã¸¦ Å»ÃâÇÏ¿´½À´Ï´Ù.")
             print("winner")
     else:
-        print("\nì‚¬ëžŒì²˜ëŸ¼ ë³´ì´ëŠ” ì¢€ë¹„ì˜€ìŠµë‹ˆë‹¤.")
+        print("\n»ç¶÷Ã³·³ º¸ÀÌ´Â Á»ºñ¿´½À´Ï´Ù.")
         print("game over")
 else:
-    print("\nê³ ë¥´ì‹  ë¬´ê¸°ë¡œëŠ” ë§Žì€ ì¢€ë¹„ë“¤ì„ ìƒëŒ€í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.")
-    print("ì¢€ë¹„ì—ê²Œ ë¬¼ë ¤ ì‚¬ë§")
+    print("\n°í¸£½Å ¹«±â·Î´Â ¸¹Àº Á»ºñµéÀ» »ó´ëÇÒ ¼ö ¾ø½À´Ï´Ù.")
+    print("Á»ºñ¿¡°Ô ¹°·Á »ç¸Á")
     print("game over")
